@@ -13,7 +13,7 @@ import {
 
 export default function Home() {
   function hadleGithub() {
-    Linking.openURL('https://github.com/ribeiroevandro/extboilerplate');
+    Linking.openURL('https://github.com/ribeiroevandro/expo-template-basic-ts');
   }
   return (
     <Container>

@@ -11,12 +11,13 @@ export const Container = styled.View`
 
 export const Title = styled.Text`
   color: ${COLORS.TEXT_COLOR};
-  font-size: 70px;
-  font-weight: bold;
+  font-size: 60px;
+  font-family: 'opensans-bold';
 `;
 
 export const Description = styled(Title)`
   font-size: 40px;
+  font-family: 'opensans-regular';
 `;
 
 export const LinkContainer = styled.View`
@@ -32,7 +33,7 @@ export const Link = styled.TouchableOpacity`
 `;
 
 export const LinkText = styled(Title)`
-  font-size: 15px;
+  font-size: 14px;
   font-weight: normal;
   margin-left: 10px;
 `;
